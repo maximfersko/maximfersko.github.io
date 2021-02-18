@@ -1,0 +1,804 @@
+=btn
+    width: 105px
+    height: 28px
+    border: 1px solid #c2c2c2
+    &:hover
+        cursor: pointer
+        background-color: orange
+        color: #b50051
+        transition: 0.2s
+    &:active
+        background-color: #b50051
+        color: orange
+        transition: 0.2s
+
+=btn_text
+    color: #000000
+    font-family: "Josefin Sans"
+    font-size: 12px
+    font-weight: 300
+    letter-spacing: 0.3px
+
+.cap
+
+    min-height: 528px
+    padding: 250px 0 119px 0
+    &_logo
+        display: block
+        margin: 0 auto
+
+.panel
+    height: 123px
+    box-shadow: 0 0 13px rgba(11, 12, 12, 0.15)
+    background-color: #f8f8f8
+    li
+        list-style-type: none
+    &_logo
+        margin-top: 43px
+        margin-left: -24px
+
+.menu
+    &_search
+        margin-top: 50px
+        margin-left: 90px
+
+    &_item
+        margin-top: 50px
+
+        list-style-type: none
+        a
+            color: #000000
+            font-size: 16px
+            font-weight: 300
+            font-style: normal
+            letter-spacing: normal
+            line-height: normal
+            text-align: left
+            text-transform: uppercase
+
+.cake
+    margin-top: 86px
+    margin-bottom: 85px
+    padding: 89px 0 56px 91px
+    min-height: 438px
+    background: url(../img/1.png) center (center / cover) no-repeat
+    &_title
+        margin-top: 35px
+        color: #921026
+        font-size: 24px
+        font-weight: 400
+        letter-spacing: 0.6px
+    &_text
+        margin-top: 28px
+        width: 312px
+        color: #000000
+        font-size: 16px
+        font-weight: 300
+        letter-spacing: 0.4px
+    button
+        +btn
+        margin-top: 27px
+        +btn_text
+    &_btn
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 12px
+        font-weight: 300
+        letter-spacing: 0.3px
+
+.recipe
+    padding: 0 43px 0 53px 0
+    margin-left: 400px
+    width: 1120px
+    height: 373px
+    display: flex
+    justify-content: space-around
+    align-items: center
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_title
+        margin-top: 15px
+        color: #000000
+        font-size: 18px
+        text-align: left
+        font-weight: 300
+        letter-spacing: 0.45px
+    &_stick
+        margin-left: 3px
+    &_comment
+        margin-left: 5px
+    &_clock
+        margin-right: 5px
+    &_view
+        margin-left: 5px
+
+    &_inf
+        display: flex
+
+.banana
+    display: flex
+    margin-top: 87px
+
+    width: 1120px
+    height: 438px
+    margin-left: 100px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_box
+        padding: 29px 69px 37px 36px
+    &_img
+        width: 520px
+        height: 438px
+    &_title
+        color: #055555
+        font-size: 32px
+        font-weight: 400
+        letter-spacing: 0.8px
+    &_inf
+
+        margin-top: 30px
+        display: flex
+        align-items: flex-end
+    &_clock
+
+        label
+            margin-left: 4px
+            color: #555555
+            font-size: 16px
+            font-weight: 500
+            letter-spacing: 0.4px
+    &_network
+
+        margin-left: 11px
+        label
+            margin-left: 12px
+            color: #555555
+            font-size: 18px
+            font-weight: 500
+            letter-spacing: 0.45px
+    button
+
+        margin-left: 200px
+        +btn_text
+
+    &_subtitle
+        margin-top: 30px
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 16px
+        font-weight: 300
+    &_chapter
+        margin-top: 15px
+        ont-family: "Playfair Display"
+        font-weight: 700
+        font-style: normal
+        letter-spacing: 0.4px
+    &_text
+        margin-top: 10px
+        height: 130
+        width: 500px
+        font-family: Sylfaen
+
+        letter-spacing: 0.4px
+
+.box
+    margin-left: 40px
+    margin-top: 140px
+    display: flex
+    justify-content: space-around
+
+    &_error
+
+        width: 518px
+        height: 518px
+        padding: 23px 0 52px 0
+        background: url(../img/box_dishes.png)
+        box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+        background-color: #ffffff
+    &_label
+
+        margin-left: 44px
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 20px
+        font-weight: 400
+        letter-spacing: 0.5px
+
+    &_line
+        margin-left: 33px
+        width: 440px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_title
+        margin-top: 150px
+        text-align: center
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 34px
+        font-weight: 700
+    &_subtitle
+        text-align: center
+        color: #a9a9a9
+        font-family: "Playfair Display - Black"
+        font-size: 16px
+        font-weight: 800
+        letter-spacing: 0.58px
+    &_smile
+        text-align: center
+    &_btn
+        display: block
+        margin: 0 auto
+        margin-top: 108px
+        padding: 2px 3px 9px 37px
+        width: 105px
+        height: 28px
+        border: 1px solid #c2c2c2
+        +btn
+        +btn_text
+
+    &_author
+        padding: 20px 48px 33px 32px
+        width: 518px
+        height: 518px
+        background-color: black
+        box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+        background-color: #ffffff
+
+.block
+
+    display: flex
+    justify-self: start
+
+    &_descr
+        margin-left: 20px
+    &_name
+        font-size: 24px
+        font-weight: 700
+        letter-spacing: 0.6px
+    &_city
+        margin-top: 6px
+        color: #000000
+        font-size: 16px
+        font-weight: 300
+        letter-spacing: 0.4px
+    &_img
+        margin-top: 24px
+    &_line
+        margin-top: 18px
+        width: 291px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_title
+
+        color: #000000
+        font-size: 20px
+        font-weight: 400
+        letter-spacing: 0.5px
+    &_text
+        margin-top: 32px
+        color: #000000
+        font-family: "Josefin Sans - Light Italic"
+        font-size: 14px
+        font-weight: 400
+        letter-spacing: 0.35px
+    &_signature
+        margin-top: px
+        margin-left: 160px
+.flex
+    margin-top: 78px
+    margin-left: 120px
+.chichi
+    padding-top: 20px
+    width: 289px
+    height: 349px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_title
+        color: #055555
+        font-size: 22px
+        font-weight: 700
+        text-align: center
+        letter-spacing: 0.55px
+    &_line
+        margin-left: 16px
+        background-color: #555555
+        width: 252px
+        height: 2px
+        opacity: 0.2
+    &_align
+        margin-top: 5px
+        display: flex
+        justify-content: flex-end
+    &_author
+        margin-right: 20px
+    &_inf
+        margin-top: -17px
+        margin-left: 80px
+        display: flex
+    &_img
+        margin-top: 22px
+    &_comment
+        margin-left: 7px
+    &_view
+        margin-left: 5px
+    &_recipe
+        font-weight: 300
+        font-style: normal
+        letter-spacing: 0.4px
+        line-height: normal
+    &_name
+        font-weight: 500
+        font-style: normal
+        letter-spacing: 0.4px
+        line-height: normal
+
+.flex_text
+    margin-right: 35px
+
+.easy
+    padding: 28px 21px 17px 20px
+    width: 290px
+    height: 427px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_inf
+        display: flex
+        justify-content: space-around
+        img
+            align-self: center
+    &_label
+        font-family: "Josefin Sans"
+        color: #000000
+        font-size: 20px
+        font-weight: 700
+        letter-spacing: 0.5px
+    &_line
+        width: 252px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_title
+        display: flex
+        justify-content: space-around
+        margin-top: 15px
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 12px
+        font-weight: 700
+        text-transform: uppercase
+        letter-spacing: 0.3px
+    &_one
+        margin-top: 30px
+        display: flex
+    &_descr
+        margin-left: 16px
+    &_by
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 12px
+        font-weight: 700
+        letter-spacing: 0.3px
+    &_text
+        font-size: 16px
+        font-family: "Josefin Sans - Semi Bold"
+        font-weight: 700
+        line-height: 16px
+        letter-spacing: 0.4px
+    &_two
+        margin-top: 34px
+        display: flex
+    &_three
+        margin-top: 34px
+        display: flex
+    &_btn
+
+        margin: 13px 0 0 144px
+        width: 105px
+        height: 28px
+        border: 1px solid #c2c2c2
+        +btn
+
+    &_btn_text
+        margin-top: 4px
+        color: #010101
+        font-family: "Josefin Sans"
+        font-size: 12px
+        font-weight: 300
+        text-align: center
+        text-transform: uppercase
+        letter-spacing: 0.3px
+
+.popular
+    padding: 27px 21px 123px 18px
+    width: 290px
+    height: 349px
+    background: url(../img/coffee.png)
+    &_label
+        margin-top: -10px
+        color: #921026
+        font-size: 32px
+        font-weight: 700
+        letter-spacing: 0.8px
+    &_title
+        margin-top: 30px
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 22px
+        font-weight: 700
+        letter-spacing: 0.55px
+    &_text
+        margin-top: 10px
+        color: #222222
+        font-family: "Josefin Sans"
+        font-style: italic
+        font-size: 16px
+        font-weight: 600
+        letter-spacing: 0.4px
+    &_inf
+        display: flex
+        justify-content: space-between
+        img
+            margin-left: 5px
+    &_btn
+        margin-top: 18px
+        width: 105px
+        height: 28px
+        border: 1px solid #c2c2c2
+        +btn
+        +btn_text
+
+    &_text_bun
+        margin-top: 4px
+        text-align: center
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 12px
+        font-weight: 300
+        letter-spacing: 0.3px
+    &_clock
+        margin-top: 18px
+    &_comment
+        margin-top: 18px
+    &_view
+        margin-top: 18px
+button
+    +btn
+    &_btn
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 12px
+        font-weight: 300
+        letter-spacing: 0.3px
+
+.target
+    padding: 37px 21px 55px 17px
+    width: 290px
+    height: 471px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_label
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 20px
+        font-weight: 500
+        letter-spacing: 0.5px
+    &_inf
+
+    &_wrapper
+        display: flex
+        justify-content: space-between
+    &_line
+        width: 251px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_title
+        margin-top: 19px
+        color: #055555
+        font-size: 20px
+        font-weight: 700
+        text-align: left
+        letter-spacing: 0.5px
+    &_one
+        margin-top: 25px
+        display: flex
+    &_lol
+
+        justify-content: column
+    &_violet
+        margin-right: 25px
+    &_header
+        color: #555555
+        font-family: "Josefin Sans"
+        font-size: 18px
+        font-weight: 300
+        letter-spacing: 0.45px
+    &_text
+        opacity: 0.5
+        color: #000000
+        font-family: "Josefin Sans - Light Italic"
+        font-size: 14px
+        font-weight: 400
+        letter-spacing: 0.35px
+
+.tags
+    padding: 16px 0 29px 0
+    margin-top: 58px
+    width: 290px
+    height: 160px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_label
+        margin-left: 17px
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 20px
+        font-weight: 400
+        letter-spacing: 0.5px
+    &_line
+        margin-top: 5px
+        margin-left: 17px
+        width: 252px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_content
+        padding: 11px 18px 0 17px
+        display: flex
+        justify-content: space-around
+    &_one
+        font-family: "Josefin Sans"
+        font-size: 15px
+        font-weight: 300
+        letter-spacing: 0.3px
+
+    &_two
+        font-family: "Josefin Sans"
+        font-size: 15px
+        font-weight: 300
+        letter-spacing: 0.3px
+    &_three
+        font-family: "Josefin Sans"
+        font-size: 15px
+        font-weight: 300
+        letter-spacing: 0.3px
+
+.timeline
+    padding: 37px 22px 54px 17px
+    width: 290px
+    height: 430px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_label
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 20px
+        font-weight: 500
+        letter-spacing: 0.5px
+    &_line
+        width: 251px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_wrapper
+        display: flex
+        justify-content: space-between
+    &_title
+
+        margin-top: 19px
+        color: #055555
+        font-size: 22px
+        font-weight: 700
+        text-align: left
+        letter-spacing: 0.5px
+    &_vector
+        margin: 19px 25px 18px 25px
+    &_line_two
+        display: block
+        margin: 0 auto
+        width: 203px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_text
+        margin-top: 13px
+        color: #6a6a6a
+        font-family: "Josefin Sans"
+        font-size: 16px
+        font-weight: 300
+        text-align: center
+        letter-spacing: 0.4px
+
+.calendar
+    margin-top: -190px
+    margin-left: 420px
+    padding: 26px 0 36px 0
+    width: 290px
+    height: 367px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_title
+        margin-top: 20px
+        text-align: center
+        font-family: "Josefin Sans"
+        font-size: 18px
+        font-weight: 300
+        letter-spacing: 0.45px
+    &_daily
+        margin: 20px 30px 0 30px
+        display: flex
+        justify-content: space-around
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 14px
+        font-weight: 400
+        letter-spacing: 0.35px
+        text-decoration: underline
+        letter-spacing: 0.35px
+    &_number
+        margin: 22px 32px 35px 35px
+
+.login
+    font-family: "Josefin Sans"
+    margin-top: 80px
+    margin-left: 150px
+    padding: 17px 30px 23px 32px
+    width: 328px
+    height: 406px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_line
+        width: 271px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+
+    &_lemon
+        margin-top: 29px
+        color: #000000
+        font-size: 16px
+        font-weight: 300
+        letter-spacing: 0.4px
+    &_form
+        input
+            padding: 12px 0 10px 18px
+            margin-top: 23px
+            width: 265px
+            height: 40px
+            opacity: 0.5
+            border-radius: 6px
+            box-shadow: inset 1px 2px 7px rgba(11, 12, 12, 0.37)
+            border: 1px solid #c2c2c2
+            background-color: #ffffff
+            &_placeholder
+
+                font-style: italic
+                color: #000000
+                font-family: "Josefin Sans"
+                font-size: 16px
+                font-weight: 400
+                letter-spacing: 0.4px
+    &_checkbox
+        margin-top: 16px
+        display: flex
+        justify-content:
+        opacity: 0.54
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 12px
+        font-weight: 400
+        letter-spacing: 0.3px
+        input
+
+            margin-top: 5px
+            border: 1px solid black
+            width: 11px
+            height: 10px
+            border-radius: 10px
+    &_remember
+        margin-left: 5px
+    &_forgot
+        margin-bottom: 33px
+        margin-left: 56px
+
+    button
+        display: block
+        margin: 0 auto
+        width: 105px
+        height: 28px
+        border: 1px solid #c2c2c2
+    &_btn
+        +btn_text
+    &_icons
+        display: flex
+        margin-top: 15px
+        margin-left: 110px
+    &_book
+        margin-right: 22px
+    &_dont
+        margin-top: 13px
+        text-align: center
+        opacity: 0.54
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 16px
+        font-weight: 400
+        letter-spacing: 0.4px
+
+.sign_in
+    margin-top: 80px
+    padding: 17px 30px 29px 32px
+    width: 328px
+    height: 535px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_line
+        width: 271px
+        height: 2px
+        background-color: #555555
+        opacity: 0.2
+    &_title
+        margin-top: 29px
+        margin-bottom: 15px
+        color: #000000
+        font-family: "Josefin Sans"
+        font-size: 16px
+        font-weight: 300
+        letter-spacing: 0.4px
+    &_form
+        margin-bottom: 28px
+        input
+            padding: 12px 0 10px 18px
+            margin-top: 15px
+            width: 265px
+            height: 40px
+            opacity: 0.5
+            border-radius: 6px
+            box-shadow: inset 1px 2px 7px rgba(11, 12, 12, 0.37)
+            border: 1px solid #c2c2c2
+            background-color: #ffffff
+        &_placeholder
+
+            color: #000000
+            font-family: "Josefin Sans"
+            font-size: 16px
+            font-weight: 400
+            letter-spacing: 0.4px
+    &_btn
+
+        button
+            display: block
+            margin: 0 auto
+            +btn
+            +btn_text
+    &_last
+        margin-top: 27px
+        opacity: 0.54
+        font-family: "Josefin Sans"
+        font-size: 14px
+        font-weight: 400
+        letter-spacing: 0.35px
+        &_text
+            color: #000000
+        &_url
+            color: #002dd6
+            letter-spacing: 0.35px
+        &_log
+            margin-top: 15px
+            font-size: uppercase
+            color: #000
+
+.comment
+    margin-top: 125px
+    margin-left: 100px
+    width: 838px
+    height: 187px
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    &_title
+        display: flex
+        padding: 23px 45px 33px 38px
+        &_soc
+            display: flex
