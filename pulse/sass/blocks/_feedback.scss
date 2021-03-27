@@ -1,0 +1,52 @@
+.feedback {
+    hr {
+        width: 940px;
+        height: 1px;
+        background-color: #f6f6f6;
+    }
+
+    &_wrapper {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &_content {
+        margin-left: 62px;
+    }
+
+    &_name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &_subname {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    &_descr {
+        margin-top: 15px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    &_subdescr {
+        margin-top: 26px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    &_footer {
+        margin-top: 22px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+}

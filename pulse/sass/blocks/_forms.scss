@@ -1,0 +1,23 @@
+.forms {
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+    }
+
+    input {
+        margin-top: 11px;
+        border-radius: 10px;
+        border: none;
+        padding: 0 0 0 21px;
+        width: 303px;
+        height: 54px;
+        font-size: 14px;
+        line-height: 66px;
+
+    }
+
+    &_modal {
+        margin-top: -18px;
+    }
+}

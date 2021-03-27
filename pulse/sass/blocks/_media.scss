@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+    .promo {
+        .header {
+            &_logo {
+                img {
+                    width: 400px;
+                }
+            }
+
+            &_official {
+                span {
+                    font-style: 16px;
+                }
+
+                &_contacs {
+                    align-items: center;
+
+                    a {
+                        font-style: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:713px) {
+
+    .promo {
+        .header {
+            &_logo {
+                img {
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+        }
+
+    }
+}
